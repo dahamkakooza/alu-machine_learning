@@ -223,7 +223,6 @@ class DeepNeuralNetwork:
     @staticmethod
     def load(filename):
         """ Load a pickled DeepNeuralNetwork object
-
         Args:
             filename (_type_): _description_
 
@@ -234,5 +233,4 @@ class DeepNeuralNetwork:
             with open(filename, 'rb') as f:
                 return pickle.load(f)
         except FileNotFoundError:
-
             return None
