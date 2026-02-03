@@ -223,7 +223,6 @@ class DeepNeuralNetwork:
     @staticmethod
     def load(filename):
         """ Load a pickled DeepNeuralNetwork object
-
         Args:
             filename (_type_): _description_
 
